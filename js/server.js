@@ -8,7 +8,7 @@ var connection = mysql.createConnection({
 
     user: "root",
 
-    password: `${process.env.}`,
+    password: `${process.env.db_PASS}`,
     database: "employeedata_DB"
 });
 
